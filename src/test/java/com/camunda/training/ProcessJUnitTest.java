@@ -49,8 +49,8 @@ public class ProcessJUnitTest {
 
   }
 
-    @Test
-    @Deployment(resources="cheescake-process.bpmn")
+    //@Test
+    //@Deployment(resources="cheescake-process.bpmn")
     public void invitationMessageCheescakeTestingContinues() {
         Mocks.register("logger", new LoggerDelegate());
 
